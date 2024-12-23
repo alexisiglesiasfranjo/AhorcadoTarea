@@ -4,20 +4,18 @@
 ![Alt text](images/image.png)
 
 
-Nos planteamos dos objetivos
-- examinar  la compatibilidad kotlin/java
-- escribir código que implique usar  funciones de String de Kotlin para generar código conciso y elegante.
+Objetivo: comprobar la interoperabilidad  kotlin/java
 
-Disponemos de código java ya escrito que queremos reutilizar directamente:
+
+Queremos hacer un aplicación en Kotlin pero disponemos de código java ya escrito que queremos reutilizar directamente:
 - código del típico dibujo del ahorcado en DibujoAhorcado.java
 - código de un reproductor midi casero en ReproductorMidi.java
 - el método Thread.sleep() de la biblioteca java 
 
-Escribiremos la lógica del juego en Kotlin usando estos dos recursos. El código lo encontrarás en los correspondientes ficheros de este proyecto.  Antes de escribir la lógica del  juego puedes probar el manejo del código Java que se te facilita como se indica en ficheros anexos a este enunciado.
+Escribiremos la lógica del juego en Kotlin usando los recursos java anteriores. El código java del dibujo y el reproductor lo encontrarás en los correspondientes ficheros de este proyecto.  Antes de escribir la lógica del  juego puedes probar el manejo del código Java que se te facilita como se indica en ficheros anexos a este enunciado.
 
 Observa en el siguiente pantallazo como usamos código java dentro de kotlin:
-- invocar código java que está en otros ficheros como el de la clase DibujoAhorcado y ReproductorMidi
--  incluir código java dentro del propio fichero kt “mezclando” sentencias kotlin y java. Por ejemplo podemos usar la función sleep() de java.
+
 ![Alt text](images/image-3.png)
 
 
