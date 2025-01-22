@@ -40,7 +40,7 @@ fun main() {
         }else{
             println("la letra no es correcta")
             DibujoAhorcado.dibujar(intentoActual)
-            Thread.sleep(20000)
+            Thread.sleep(10000)
         }
 
         if (palabraOculta==palabraRandom){
